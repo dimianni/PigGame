@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+}
+button {
+    padding: 0;
+    border: 0;
+}
+input,
+textarea {
+    border-radius: 0;
+    box-shadow: none;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1919.99px) {
+    .container {
+        max-width: 1170px;
+    }
+}
